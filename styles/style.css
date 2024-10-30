@@ -1,0 +1,158 @@
+body nav {
+  display: inline-block;
+}
+body nav a {
+  line-height: 21px;
+  font-size: 14px;
+  margin: 21px;
+  text-decoration: none;
+  color: black;
+}
+body button {
+  width: 122px;
+  height: 48px;
+  color: white;
+  background-color: #403432;
+  border: 0px;
+}
+body header {
+  text-align: center;
+  white-space: nowrap;
+  font-size: 0px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #E1E1E1;
+}
+body header img {
+  vertical-align: top;
+  margin-right: 20px;
+}
+body header #search {
+  display: inline-block;
+  margin-left: 147px;
+  border: 1px solid #E1E1E1;
+}
+body header #search input {
+  width: 416px;
+  height: 46px;
+  border-radius: 0px;
+  border: 0px;
+  font-size: 14px;
+}
+body main {
+  font-family: "Merriweather", serif;
+  white-space: nowrap;
+}
+body main h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 35px;
+  margin-left: 331px;
+}
+body main h2 {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 24px;
+}
+body main h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 24px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: inline-block;
+}
+body main h4 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 21px;
+}
+body main h5 {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 21px;
+}
+body main h6 {
+  font-size: 14px;
+  font-weight: 200;
+  margin-left: 16px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  text-decoration: line-through;
+  color: #A0A0A0;
+  width: 90px;
+}
+body main section {
+  white-space: nowrap;
+  text-align: center;
+  margin-left: 30px;
+}
+body main section article {
+  width: 280px;
+  height: 328px;
+  border: 1px solid #E1E1E1;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  margin-right: 30px;
+}
+body main section article figure {
+  margin: 0px;
+  white-space: wrap;
+}
+body main section article figure img {
+  text-align: center;
+}
+body main section article .discount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body main section article .discount .price-container {
+  text-align: right;
+}
+body main section article .discount button {
+  margin-right: 20px;
+}
+body main section article button {
+  width: 118px;
+  margin-right: 20px;
+}
+body footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: #ECEAEA;
+  color: #555555;
+  height: 96px;
+  display: flex;
+  align-items: center;
+}
+body footer h5 {
+  text-align: right;
+  display: inline-block;
+  margin: 21px;
+  margin-left: 0px;
+}
+body footer img {
+  vertical-align: middle;
+  margin-right: 20px;
+  margin-left: 341px;
+}
+body footer .imgContact {
+  margin-left: 305px;
+  margin-right: 0px;
+}
+body footer #adres {
+  margin-left: 50px;
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("../fonts/Merriweather-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/*# sourceMappingURL=style.css.map */

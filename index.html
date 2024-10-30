@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Добавить иконки сайту разных размеров 16х16 32х32 64х64-->
+    <link rel="icon" href="/images/logo.svg">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Магазин искусства</title>
+</head>
+
+<body>
+    <header>
+        <img src="/images/logo.svg" alt="Логотип сайта">
+        <nav>
+            <a href="#">Каталог</a>
+            <a href="#">Доставка</a>
+            <a href="#">Оплата</a>
+            <a href="#">Контакты</a>
+            <a href="#">О галерее</a>
+        </nav>
+        <form action="" id="search">
+            <input type="text" placeholder="Поиск по названию картины">
+            <button type="submit">Найти</button>
+        </form>
+    </header>
+    <main>
+        <h1>Картины эпохи Возрождения</h1>
+        <section>
+            <article>
+                <figure>
+                    <img src="/images/BirthOfVenus.png" alt="Картина «Рождение Венеры» Сандро Боттичелли">
+                    <figcaption>
+                        <h2>«Рождение Венеры» Сандро Боттичелли</h2>
+                    </figcaption>
+                </figure>
+                <div class="discount">
+                    <div class="price-container">
+                        <h6>2 000 000 $</h6>
+                        <h3>1 000 000 $</h3>
+                    </div>
+                    <button type="submit">Купить</button>
+                </div>
+            </article>
+            <article>
+                <figure>
+                    <img src="/images/LastSupper.png" alt="Картина «Тайная вечеря»  Леонардо да Винчи" height="168"
+                        width="280">
+                    <figcaption>
+                        <h2>«Тайная вечеря» Леонардо да Винчи</h2>
+                    </figcaption>
+                </figure>
+                <h3>3 000 000 $</h3>
+                <button type="submit">Купить</button>
+            </article>
+            <article>
+                <figure>
+                    <img src="/images/CreationOfAdam.png" alt="Картина «Сотворение Адама»
+Микеланджело">
+                    <figcaption>
+                        <h2>«Сотворение Адама»
+                            Микеланджело</h2>
+                    </figcaption>
+                </figure>
+                <div class="discount">
+                    <div class="price-container">
+                        <h6>6 000 000 $</h6>
+                        <h3>5 000 000 $</h3>
+                    </div>
+                    <button type="submit">Купить</button>
+                </div>
+            </article>
+            <article>
+                <figure>
+                    <img src="/images/AnatomyLesson.png" alt="Картина «Урок анатомии»  Рембрандт">
+                    <figcaption>
+                        <h2>«Урок анатомии» Рембрандт</h2>
+                    </figcaption>
+                </figure>
+                <div class="discount">
+                    <div class="price-container">
+                        <h6>3 000 000 $</h6>
+                        <h3>2 000 000 $</h3>
+                    </div>
+                    <button type="submit">Купить</button>
+                </div>
+            </article>
+        </section>
+    </main>
+    <div class="background-footer">
+        <footer>
+            <img src="/images/logo.svg" alt="Логотип сайта">
+            <nav>
+                <a href="#">Каталог</a>
+                <a href="#">Доставка</a>
+                <a href="#">Оплата</a>
+                <a href="#">Контакты</a>
+                <a href="#">О галерее</a>
+            </nav>
+            <img src="/images/Phone.svg" alt="Телефонная трубка" class="imgContact">
+            <h5>+7(495)555-55-55</h5>
+            <img src="/images/geopoint.svg" alt="Геоточка" id="adres" class="imgContact">
+            <h5>г. Москва, ул. Расплетина, 24</h5>
+        </footer>
+    </div>
+    <script src="/JS/htmx.min.js" hx-post=""></script>
+</body>
+
+</html>
