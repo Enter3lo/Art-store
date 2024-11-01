@@ -40,7 +40,8 @@
                         <h6>2 000 000 $</h6>
                         <h3>1 000 000 $</h3>
                     </div>
-                    <button type="submit">Купить</button>
+                    <button class="button-buy" hx-get="https://reqres.in/api/products/3"
+                        onclick="startLoading(this)">Купить</button>
                 </div>
             </article>
             <article>
@@ -52,7 +53,8 @@
                     </figcaption>
                 </figure>
                 <h3>3 000 000 $</h3>
-                <button type="submit">Купить</button>
+                <button class="button-buy" hx-get="https://reqres.in/api/products/3"
+                    onclick="startLoading(this)">Купить</button>
             </article>
             <article>
                 <figure>
@@ -68,23 +70,20 @@
                         <h6>6 000 000 $</h6>
                         <h3>5 000 000 $</h3>
                     </div>
-                    <button type="submit">Купить</button>
+                    <button class="button-buy" hx-get="https://reqres.in/api/products/3"
+                        onclick="startLoading(this)">Купить</button>
                 </div>
             </article>
-            <article>
+            <article id="sail">
                 <figure>
                     <img src="/images/AnatomyLesson.png" alt="Картина «Урок анатомии»  Рембрандт">
                     <figcaption>
                         <h2>«Урок анатомии» Рембрандт</h2>
                     </figcaption>
                 </figure>
-                <div class="discount">
-                    <div class="price-container">
-                        <h6>3 000 000 $</h6>
-                        <h3>2 000 000 $</h3>
-                    </div>
-                    <button type="submit">Купить</button>
-                </div>
+                <h5>
+                    Продана на аукционе
+                </h5>
             </article>
         </section>
     </main>
@@ -104,6 +103,7 @@
             <h5>г. Москва, ул. Расплетина, 24</h5>
         </footer>
     </div>
+    <script src="/JS/index.js"></script>
     <script src="/JS/htmx.min.js" hx-post=""></script>
 </body>
 
