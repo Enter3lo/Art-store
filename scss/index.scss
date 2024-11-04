@@ -1,7 +1,7 @@
 //sass --watch scss/index.scss:styles/style.css
 
 body {
-
+    font-family: "Merriweather", serif;
     text-wrap: nowrap;
 
     nav {
@@ -61,7 +61,6 @@ body {
     }
 
     main {
-        font-family: "Merriweather", serif;
         white-space: nowrap;
 
         h1 {
