@@ -10,6 +10,10 @@ function updateButtonState() {
     buyButtons.forEach((button, index) => {
         if (cartItems.includes(index)) {
             button.innerText = 'В корзине';
+            const image = document.createElement('img');
+            image.src = '/images/icon-chek.svg';
+            image.alt = 'галочка';
+            button.appendChild(image);
             button.style.backgroundColor = '#5B3A32'; // Меняем цвет кнопки, если в корзине
             button.disabled = false; // Включаем кнопку обратно
             loadingStates[index] = false; // Сбрасываем состояние загрузки
@@ -43,6 +47,11 @@ function startLoading(button) {
     setTimeout(() => {
         clearInterval(loadingIntervals[buttonIndex]);
         button.innerText = 'В корзине';
+        const image = document.createElement('img');
+        image.src = '/images/icon-chek.svg';
+        image.alt = 'галочка';
+        button.appendChild(image);
+
         button.style.backgroundColor = '#5B3A32'; // Изменяем цвет кнопки
 
         // Обновляем состояние localStorage

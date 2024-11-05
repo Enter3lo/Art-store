@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: "Merriweather", serif;
   text-wrap: nowrap;
@@ -119,12 +120,24 @@ body main section article .discount {
 body main section article .discount .price-container {
   text-align: right;
 }
-body main section article .discount button {
-  margin-right: 20px;
-}
 body main section article button {
   width: 118px;
   margin-right: 20px;
+  width: 118px;
+  margin-right: 20px;
+  position: relative;
+  /* Add this line */
+  padding-top: 5px;
+  /* Вертикальное выравнивание по центру */
+}
+body main section article button img {
+  position: absolute;
+  top: 55%;
+  left: 0;
+  transform: translateY(-50%);
+  margin-left: 5px;
+  width: 19px;
+  height: 19px;
 }
 body main section #sail {
   opacity: 50%;
