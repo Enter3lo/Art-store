@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "unused-webpack-plugin": "^2.4.0",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "htmx.org": "^1.9.12"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "start": "webpack-dev-server --mode development",
+  "build": "webpack --mode production"
+}

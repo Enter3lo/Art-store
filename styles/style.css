@@ -7,7 +7,7 @@ html {
   display: grid;
   grid-template-columns: 18fr 64fr 18fr;
   min-height: 100%;
-  grid-template-rows: 1fr 795px auto;
+  grid-template-rows: 1fr 790px auto;
 }
 
 .col-1 {
@@ -93,7 +93,6 @@ body h5 {
   font-size: 14px;
   font-weight: normal;
   margin: 21px;
-  margin-top: 16px;
 }
 body h6 {
   font-size: 14px;

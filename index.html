@@ -11,7 +11,9 @@
 
 <body>
     <div class="wrapper">
-        <div class="left-header"></div>
+        <div class="left-header">
+            <!--<button onclick="resetButtons()">Сброс</button>-->
+        </div>
         <header>
             <div class="col-1-header">
                 <img src="/images/logo.svg" alt="Логотип сайта">
@@ -47,9 +49,8 @@
                             <h6>2 000 000 $</h6>
                             <h3>1 000 000 $</h3>
                         </div>
-                        <button class="button-buy" hx-get="https://reqres.in/api/products/3"
-                            onclick="startLoading(this)">
-                            Купить</button>
+                        <button class="button-buy" hx-get="https://reqres.in/api/products/3" hx-swap="none"
+                            hx-on="htmx:afterRequest:startLoading(this)">купить</button>
                     </div>
                 </article>
                 <article>
@@ -61,8 +62,8 @@
                         </figcaption>
                     </figure>
                     <h3>3 000 000 $</h3>
-                    <button class="button-buy" hx-get="https://reqres.in/api/products/3"
-                        onclick="startLoading(this)">Купить</button>
+                    <button class="button-buy" hx-get="https://reqres.in/api/products/3" hx-swap="none"
+                        hx-on="htmx:afterRequest:startLoading(this)">купить</button>
                 </article>
                 <article>
                     <figure>
@@ -78,8 +79,8 @@
                             <h6>6 000 000 $</h6>
                             <h3>5 000 000 $</h3>
                         </div>
-                        <button class="button-buy" hx-get="https://reqres.in/api/products/3"
-                            onclick="startLoading(this)">Купить</button>
+                        <button class="button-buy" hx-get="https://reqres.in/api/products/3" hx-swap="none"
+                            hx-on="htmx:afterRequest:startLoading(this)">купить</button>
                     </div>
                 </article>
                 <article id="sail">
@@ -118,6 +119,7 @@
         </footer>
         <div class="right-footer"></div>
     </div>
+    <script src="/dist/main.js"></script>
 </body>
 
 </html>
